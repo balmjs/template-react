@@ -17,10 +17,12 @@ balm.config = {
     }
   },
   styles: {
-    ext: 'css'
+    ext: 'css', // PostCSS
+    autoprefixer: ['last 2 versions']
   },
   scripts: {
-    entry: config.entry
+    entry: config.entry,
+    vendors: config.vendors
   },
   cache: true,
   assets: config.assets
