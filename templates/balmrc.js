@@ -7,7 +7,7 @@ module.exports = {
   },
   entry: {
     react: ['react', 'react-dom'],
-    main: './app/js/main.js' // entry js file
+    main: './app/scripts/main.js' // entry js file
   },
   vendors: ['react'],
   assets: {
