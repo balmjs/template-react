@@ -12,6 +12,7 @@ class App extends Component {
         <p className="app-intro">
           To get started, edit <code>scripts/views/app.js</code> and <code>css/pages/_home.css</code>.
         </p>
+        <p>thx <a href="//balmjs.com/">BalmJS</a></p>
       </div>
     );
   }
