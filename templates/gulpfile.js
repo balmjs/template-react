@@ -32,7 +32,7 @@ balm.go(function(mix) {
   if (balm.config.production) {
     // for static
     mix.publish();
-    // for html
+    // for template
     Object.keys(config.publish).forEach(function(key) {
       mix.publish(key, config.publish[key].target, config.publish[key].option || {});
     });
