@@ -21,11 +21,12 @@ balm.config = {
     autoprefixer: ['last 2 versions']
   },
   scripts: {
-    entry: config.entry,
-    vendors: config.vendors
+    entry: config.entry
   },
   cache: true,
   assets: config.assets
+  // More Config
+  // https://github.com/balmjs/balm/blob/master/docs/configuration.md
 };
 
 balm.go(function(mix) {
