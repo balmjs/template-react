@@ -1,12 +1,16 @@
 import React, { Component } from 'react';
-import logo from '../../images/logo.svg';
 
 class App extends Component {
+  constructor(props) {
+    super(props);
+    this.logo = require('../../images/logo.svg');
+  }
+
   render() {
     return (
       <div className="app">
         <div className="app-header">
-          <img src={logo} className="app-logo" alt="logo" />
+          <img src={this.logo} className="app-logo" alt="logo" />
           <h2>Welcome to React</h2>
         </div>
         <p className="app-intro">
