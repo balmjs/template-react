@@ -1,6 +1,6 @@
 {
   "name": "my-react-app",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "dev": "gulp",
@@ -12,7 +12,7 @@
   },
   "devDependencies": {
     "babel-preset-react": "^6.24.1",
-    "balm": "^0.6.3",
+    "balm": "^0.7.0",
     "gulp": "^3.9.1"
   }
 }
