@@ -6,7 +6,6 @@ module.exports = {
     }
   },
   entry: {
-    react: ['react', 'react-dom'],
     main: './app/scripts/main.jsx' // Entry js file
   },
   assets: {
