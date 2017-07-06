@@ -10,7 +10,7 @@ class App extends Component {
           <h2>Welcome to React</h2>
         </div>
         <p className="app-intro">
-          To get started, edit <code>scripts/views/app.js</code> and <code>css/pages/_home.css</code>.
+          To get started, edit <code>scripts/views/app.jsx</code> and <code>styles/pages/_home.scss</code>.
         </p>
         <p>thx <a href="//balmjs.com/">BalmJS</a></p>
       </div>
