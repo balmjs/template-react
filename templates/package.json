@@ -11,9 +11,9 @@
     "react-dom": "^15.6.1"
   },
   "devDependencies": {
-    "babel-eslint": "^7.2.3",
+    "babel-eslint": "^8.0.0",
     "babel-preset-react": "^6.24.1",
-    "balm": "^0.8.6",
+    "balm": "^0.9.1",
     "gulp": "^3.9.1"
   }
 }
