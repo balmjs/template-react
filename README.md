@@ -1,4 +1,5 @@
 # BalmJS template - react
+
 > A React project
 
 ## Installation
