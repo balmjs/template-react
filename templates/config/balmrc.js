@@ -30,7 +30,7 @@ module.exports = {
   cache: true,
   assets: {
     root: 'assets', // Replace 'assets' to your remote project root
-    publicPath: 'public'
+    mainDir: 'public'
   }
   // More Config
 };
