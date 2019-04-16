@@ -1,21 +1,21 @@
 {
   "name": "my-react-app",
-  "version": "3.0.0",
+  "version": "4.0.0",
   "private": true,
   "scripts": {
     "dev": "gulp --silent",
     "prod": "gulp --silent --production"
   },
   "dependencies": {
-    "react": "^16.7.0",
-    "react-dom": "^16.7.0"
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
   },
   "devDependencies": {
     "@babel/core": "^7.0.0",
     "@babel/preset-react": "^7.0.0",
     "babel-eslint": "^10.0.0",
-    "balm": "^1.0.0",
-    "eslint": "^5.13.0",
+    "balm": "^1.3.2",
+    "eslint": "^5.16.0",
     "eslint-plugin-react": "^7.12.4",
     "gulp": "^4.0.0"
   }
