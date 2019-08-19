@@ -14,7 +14,15 @@ class App extends Component {
           <code>styles/pages/_home.scss</code>.
         </p>
         <p>
-          thx <a href="//balmjs.com/">BalmJS</a>
+          thx{' '}
+          <a
+            className="app-link"
+            href="//balmjs.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            BalmJS
+          </a>
         </p>
       </div>
     );

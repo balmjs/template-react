@@ -35,7 +35,8 @@ module.exports = {
   cache: true,
   assets: {
     root: 'assets', // Replace 'assets' to your remote project root
-    mainDir: 'public'
+    mainDir: 'public',
+    excludes: ['dist/img/icons/*.png']
   }
   // More Config
 };
