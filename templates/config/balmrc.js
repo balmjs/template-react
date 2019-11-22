@@ -1,28 +1,24 @@
 /*eslint-env node*/
 const path = require('path');
 
-// Documentation - http://balmjs.com/docs/en/configuration/toc.html
-// 中文文档 - http://balmjs.com/docs/zh-cn/configuration/toc.html
+// Documentation - http://balmjs.com/docs/v2/config/
+// 中文文档 - https://balmjs.com/docs/v2/zh/config/
 module.exports = {
   server: {
     open: true,
-    proxyContext: '/api',
-    proxyOptions: {
-      target: 'http://your.project.dev', // Target host
-      changeOrigin: true // Needed for virtual hosted sites
+    proxyConfig: {
+      context: '/api',
+      options: {
+        target: 'http://your.project.dev', // Target host
+        changeOrigin: true // Needed for virtual hosted sites
+      }
     }
   },
   roots: {
     source: 'app'
   },
-  paths: {
-    source: {
-      css: 'styles',
-      js: 'scripts'
-    }
-  },
   styles: {
-    ext: 'scss'
+    extname: 'scss'
   },
   scripts: {
     entry: {
@@ -32,10 +28,10 @@ module.exports = {
       '@': path.resolve(__dirname, '..', 'app', 'scripts')
     }
   },
-  cache: true,
   assets: {
     root: 'assets', // Replace 'assets' to your remote project root
     mainDir: 'public',
+    cache: true,
     excludes: ['dist/img/icons/*.png']
   }
   // More Config
