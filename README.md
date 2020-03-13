@@ -1,4 +1,4 @@
-# BalmJS template - react
+# BalmJS template - `react`
 
 > A React project
 
@@ -24,4 +24,4 @@ npm run dev
 npm run prod
 ```
 
-> thx [BalmJS](https://balmjs.com/)
+- thx [BalmJS](https://balmjs.com/)
