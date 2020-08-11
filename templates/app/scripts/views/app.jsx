@@ -15,7 +15,7 @@ function App() {
           thx{' '}
           <a
             className="app-link"
-            href="//balmjs.com/"
+            href="//balm.js.org/"
             target="_blank"
             rel="noopener noreferrer"
           >
